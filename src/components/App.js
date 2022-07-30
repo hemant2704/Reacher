@@ -108,7 +108,7 @@ const App = () => {
           <Navbar account={account} />
           <HomeInfo />
           <Particles />
-          <Main/>
+          <Main account={account} imageList={imageList}/>
           <Picupload handleImageUpload={handleImageUpload} />
           <Footer />
         </>
